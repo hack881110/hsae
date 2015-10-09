@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/water4">
+	
+    <com.animations.RadarScanView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+ 
+    <com.animations.RandomTextView
+        android:id="@+id/RandomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        ></com.animations.RandomTextView>
+
+</RelativeLayout>
+<!-- From: file:/F:/Android_/hsae/res/layout/activity_radar.xml -->

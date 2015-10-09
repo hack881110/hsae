@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+            <FrameLayout
+                android:layout_width="160dip"
+                android:layout_height="160dip"
+                android:layout_gravity="center_horizontal">
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:src="@drawable/act_radar_bg" />-->
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/im_scan"
+                    android:layout_width="120dip"
+                    android:layout_height="120dip"
+                    android:layout_gravity="center"
+                    android:src="@drawable/act_radar_scanning_03" />
+
+                <ImageView
+                    android:id="@+id/im_dian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/act_radar_dian_03" />
+
+                <com.animations.ProgressWheel
+                    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/progress_bar_two"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    ProgressWheel:barColor="#3395ee"
+                    ProgressWheel:barWidth="12dp"
+                    ProgressWheel:rimColor="#22004400"
+                    ProgressWheel:rimWidth="12dp"
+                    ProgressWheel:spinSpeed="1dp"
+                    ProgressWheel:text="检测设备"
+                    ProgressWheel:textColor="#222222"
+                    ProgressWheel:textSize="14sp"
+                    android:layout_gravity="center">
+
+                </com.animations.ProgressWheel>
+
+            </FrameLayout>
+         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_lodingApk"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请开始扫描"
+                android:textSize="16sp"
+                android:textColor="#468EFF"/>
+
+            <!--<ProgressBar-->
+                <!--android:id="@+id/pb_loding"-->
+                <!--style="?android:attr/progressBarStyleHorizontal"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dip"-->
+                <!--android:layout_marginRight="20dip"-->
+                <!--android:progressDrawable="@drawable/progress_horizontal" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_count"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="89dp"-->
+
+        <!--android:layout_centerVertical="true"-->
+        <!--android:gravity="center"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton1"
+                android:layout_centerVertical="true"
+
+                android:background="#00000000"
+                android:src="@drawable/shuidi005"
+                android:gravity="center">
+            </ImageView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageButton2"
+                android:background="#00000000"
+                android:src="@drawable/leftwater"
+                android:layout_marginLeft="48dp"
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton3"
+                android:layout_centerVertical="true"
+                android:src="@drawable/leftwater"
+                android:background="#00000000"
+                android:layout_marginLeft="108dp"
+                android:layout_toRightOf="@id/imageButton2"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton4"
+                android:src="@drawable/centerwater0"
+                android:background="#00000000"
+                android:gravity="center"
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" >-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_scanText"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical" >-->
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+</LinearLayout>

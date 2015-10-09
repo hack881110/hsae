@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android_\hsae\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="F:\Android_\hsae\build\intermediates\pre-dexed\debug\android-support-v4-c5b06b2be4e31283136746e8231b9b0ea3a5ac6e.jar" />
+    </item>
+    <item
+        jar="F:\Android_\hsae\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\Android_\hsae\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-1a993d1c3b211bbab7c50b50a11d021a889fed7b.jar" />
+    </item>
+    <item
+        jar="F:\Android_\hsae\libs\gradle-wrapper.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d7b175883ea576543d3dbfee42894b103cf35c1">
+        <dex dex="F:\Android_\hsae\build\intermediates\pre-dexed\debug\gradle-wrapper-1e55a946e26aeca1d1657c971f38af7ecbe96257.jar" />
+    </item>
+
+</items>
